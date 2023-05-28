@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #3b3d3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(zhongli.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  fieldset {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: rgb(13, 84, 225);
+  }
+  
+  legend {
+    text-align: center;
+    color: rgb(239, 229, 229);
+    font-size: 200%;
+    background-color: rgba(255, 255, 255, 0.702);
+  }
+  
+  .back,
+  a {
+    margin-top: 5px;
+    background-color: #2880b9;
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+  }
+  
+  .image-container {
+    float: right;
+    margin-right: 110px;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  

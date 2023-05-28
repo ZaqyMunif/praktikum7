@@ -1,0 +1,53 @@
+.back,
+a {
+  margin-top: 5px;
+  background-color: #2880b9;
+  color: white;
+  text-decoration: none;
+  width: 70px;
+  height: 40px;
+  border: transparent;
+  border-radius: 5px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  color: #f9fbfb;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0 40px 40px 40px;
+  border: 10px solid black;
+  text-align: justify;
+  background-image: url("cryo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+p {
+  font-size: 12pt;
+}
+
+html {
+  background-color: rgb(25, 6, 75);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+ul{background: red;}
+img {
+  display: block;
+  margin: 0 auto;
+}
+button {
+  position: fixed;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image:url(Haji.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  section {
+    background-color: rgba(240, 248, 255, 0.414);
+    text-align: center;
+    border: solid 1px #0dcfd9;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  
+  .box {
+    height: 50px;
+    background-color: #410c57;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttonpage, a {
+    margin: 0 5px;
+    background-color: #0e51bd;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+  
